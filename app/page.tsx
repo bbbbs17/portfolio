@@ -107,12 +107,13 @@ export default function Portfolio() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-16">
             <div className="relative">
-              <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-xl opacity-70"></div>
+              <div
+                  className="absolute -inset-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
-                  src="/placeholder.svg?height=600&width=600"
-                  alt="Shine Kyaw Kyaw Aung"
-                  className="w-full h-full object-cover"
+                    src="/placeholder.svg?height=600&width=600"
+                    alt="Shine Kyaw Kyaw Aung"
+                    className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 w-full p-6">
@@ -127,17 +128,24 @@ export default function Portfolio() {
             <div className="space-y-6">
               <GlassmorphicCard>
                 <p className="text-lg text-zinc-300">
-                  I'm a passionate software engineer with experience building web applications and digital products. I
-                  specialize in frontend development with React and Next.js, but I'm also comfortable working with
-                  backend technologies.
+                  #끈기의 아이콘, 끝까지 파고드는 개발자
+
+                  막히는 상황에서도 쉽게 좌절하지 않습니다. 처음 접하는 기술이라도 문제를 정의하고 해결 방법을 찾는 과정을 즐깁니다.
                 </p>
+
                 <p className="text-lg text-zinc-300 mt-4">
-                  My journey in tech started with a strong foundation in software development. I've worked with various
-                  companies to create intuitive, performant, and accessible digital experiences.
+                  #백엔드와 프론트 모두 경험하며 시스템 전체를 고민
+
+                  백엔드 중심으로 서비스를 설계하면서도 프론트엔드 UI도 직접 다뤄봤습니다.
+                  덕분에 사용자 경험과 데이터 흐름이 어떻게 연결되는지에 대한 이해가 깊어졌습니다.
                 </p>
+
                 <p className="text-lg text-zinc-300 mt-4">
-                  When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                  and staying up-to-date with the latest industry trends.
+                  #낯선 기술도 거부감 없이 빠르게 흡수
+
+                  새로운 스택이나 개념도 부담 없이 학습하고 적용해왔습니다.
+                  외부 결제 API 연동, OAuth2, JWT 기반 인증 등 다양한 기술을 독학하며 시스템에 녹여낸 경험이 있습니다.
+                  앞으로도 이런 태도로 꾸준히 성장하고자 합니다.
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 mt-8">
@@ -171,8 +179,10 @@ export default function Portfolio() {
       {/* Skills Section */}
       <section id="skills" className="py-32 relative">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div
+              className="absolute top-1/3 left-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div
+              className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
         <div className="container relative z-10">
@@ -181,13 +191,37 @@ export default function Portfolio() {
               subtitle="숙련도에 따라 상 · 중 · 하로 분류하였습니다."
           />
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-16">
-            <SkillBadge name="JAVA" level={80} />
-            <SkillBadge name="SPRING" level={65} />
-            <SkillBadge name="MySQL" level={60} />
-            <SkillBadge name="NCP" level={30} />
-            <SkillBadge name="Docker" level={25} />
-            <SkillBadge name="Git" level={55} />
+          {/* 기술 스킬 */}
+          <div>
+            <h3 className="text-xl font-semibold text-white mb-6">🧠 기술 역량</h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              <SkillBadge name="JAVA" level={80}/>
+              <SkillBadge name="SPRING" level={65}/>
+              <SkillBadge name="MySQL" level={60}/>
+              <SkillBadge name="Docker" level={25}/>
+              <SkillBadge name="Next.js" level={10}/>
+            </div>
+          </div>
+
+          {/* 소프트 스킬 */}
+          <div>
+            <h3 className="text-xl font-semibold text-white mb-6">💬 직무 역량</h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              <SkillBadge name="커뮤니케이션" level={80}/>
+              <SkillBadge name="기획 능력" level={60}/>
+              <SkillBadge name="성실함" level={80}/>
+              <SkillBadge name="리더십" level={55} />
+              <SkillBadge name="스케줄링" level={50} />
+            </div>
+          </div>
+
+          {/* 사용 툴 */}
+          <div>
+            <h3 className="text-xl font-semibold text-white mb-6">🛠 사용도구</h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              <SkillBadge name="Intellij" level={70} />
+              <SkillBadge name="FIGMA" level={10} />
+            </div>
           </div>
         </div>
       </section>
