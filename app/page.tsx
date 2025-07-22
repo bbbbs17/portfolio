@@ -43,8 +43,7 @@ export default function Portfolio() {
               </span>
             </h1>
             <p className="text-xl text-zinc-400 max-w-[600px]">
-              단순한 기능 구현이 목표가아닌, 사용자 관점에서 원하고 필요로 하는점이 무엇인지를 고민하는데 더많은 시간을 투자하
-              는 개발자입니다.
+              단순한 기능 구현이 목표가아닌, 사용자 관점에서 원하고 필요로 하는점이 무엇인지를 고민하는데 더많은 시간을 투자하는 개발자입니다.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button className="relative overflow-hidden group bg-gradient-to-r from-purple-500 to-pink-500 border-0">
@@ -127,22 +126,19 @@ export default function Portfolio() {
 
             <div className="space-y-6">
               <GlassmorphicCard>
-                <p className="text-lg text-zinc-300">
-                  #끈기의 아이콘, 끝까지 파고드는 개발자
-
+                <p className="text-lg text-zinc-300 mt-6 leading-relaxed">
+                  <span className="block text-xl font-bold text-white mb-2">#끈기의 아이콘, 끝까지 파고드는 개발자</span>
                   막히는 상황에서도 쉽게 좌절하지 않습니다. 처음 접하는 기술이라도 문제를 정의하고 해결 방법을 찾는 과정을 즐깁니다.
                 </p>
 
-                <p className="text-lg text-zinc-300 mt-4">
-                  #백엔드와 프론트 모두 경험하며 시스템 전체를 고민
-
+                <p className="text-lg text-zinc-300 mt-6 leading-relaxed">
+                  <span className="block text-xl font-bold text-white mb-2">#백엔드와 프론트 모두 경험하며 시스템 전체를 고민</span>
                   백엔드 중심으로 서비스를 설계하면서도 프론트엔드 UI도 직접 다뤄봤습니다.
                   덕분에 사용자 경험과 데이터 흐름이 어떻게 연결되는지에 대한 이해가 깊어졌습니다.
                 </p>
 
-                <p className="text-lg text-zinc-300 mt-4">
-                  #낯선 기술도 거부감 없이 빠르게 흡수
-
+                <p className="text-lg text-zinc-300 mt-6 leading-relaxed">
+                  <span className="block text-xl font-bold text-white mb-2">#낯선 기술도 거부감 없이 빠르게 흡수</span>
                   새로운 스택이나 개념도 부담 없이 학습하고 적용해왔습니다.
                   외부 결제 API 연동, OAuth2, JWT 기반 인증 등 다양한 기술을 독학하며 시스템에 녹여낸 경험이 있습니다.
                   앞으로도 이런 태도로 꾸준히 성장하고자 합니다.
@@ -210,8 +206,8 @@ export default function Portfolio() {
               <SkillBadge name="커뮤니케이션" level={80}/>
               <SkillBadge name="기획 능력" level={60}/>
               <SkillBadge name="성실함" level={80}/>
-              <SkillBadge name="리더십" level={55} />
-              <SkillBadge name="스케줄링" level={50} />
+              <SkillBadge name="리더십" level={55}/>
+              <SkillBadge name="스케줄링" level={50}/>
             </div>
           </div>
 
