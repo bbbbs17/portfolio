@@ -235,49 +235,25 @@ export default function Portfolio() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
             <ProjectCard
-              title="E-commerce Platform"
-              description="A full-stack e-commerce platform built with Next.js, Stripe, and Prisma."
+              title="우울증 환자 대상 AI 채팅 자동요약 시스템의 치료적 활용"
+              description="우울증 환자가 자신의 감정이나 일상을 챗봇을 통해 대화, 내용을 자동요약하여 의료진이 치료에 참고할수있도록 돕는 시스템"
               tags={["Next.js", "TypeScript", "Prisma", "Stripe"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
               repoUrl="https://github.com"
             />
             <ProjectCard
-              title="Task Management App"
-              description="A collaborative task management application with real-time updates."
+              title="딥러닝 기반 수어 학습 어플리케이션 개발"
+              description="컴퓨터비전 및 LSTM과 CNN을 결합한 딥러닝 모델을 기반으로 수형의 정확도를판단 실시간으로 피드백하는 수어 학습 어플리케이션."
               tags={["React", "Firebase", "Tailwind CSS", "Redux"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
               repoUrl="https://github.com"
             />
             <ProjectCard
-              title="AI Content Generator"
-              description="An AI-powered content generation tool using OpenAI's GPT models."
+              title="AI 소비습관 분석 및 개선 시스템"
+              description="사용자의 소비패턴을 의미단위로 분석 절약방안 제시하는 ai소비습관 분석 및 개선시스템"
               tags={["Next.js", "OpenAI API", "Node.js", "MongoDB"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
-            />
-            <ProjectCard
-              title="Fitness Tracker"
-              description="A mobile-first fitness tracking application with data visualization."
-              tags={["React Native", "TypeScript", "D3.js", "Firebase"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
-            />
-            <ProjectCard
-              title="Weather Dashboard"
-              description="A beautiful weather dashboard with forecasts and historical data."
-              tags={["React", "Weather API", "Chart.js", "Styled Components"]}
-              image="/placeholder.svg?height=400&width=600"
-              demoUrl="https://example.com"
-              repoUrl="https://github.com"
-            />
-            <ProjectCard
-              title="Portfolio Website"
-              description="This portfolio website built with Next.js and Tailwind CSS."
-              tags={["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"]}
               image="/placeholder.svg?height=400&width=600"
               demoUrl="https://example.com"
               repoUrl="https://github.com"
