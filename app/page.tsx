@@ -322,16 +322,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">Email</div>
-                    <div className="font-medium">shinekyawkyawaung@gmail.com</div>
-                  </div>
-                </div>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Linkedin className="h-5 w-5 text-purple-400" />
-                  </div>
-                  <div>
-                    <div className="text-sm text-zinc-500">LinkedIn</div>
-                    <div className="font-medium">linkedin.com/in/shinekyawkyawaung</div>
+                    <div className="font-medium">bs000317@naver.com</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -340,7 +331,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">GitHub</div>
-                    <div className="font-medium">github.com/shinekyaw</div>
+                    <div className="font-medium">github.com/bbbbs17</div>
                   </div>
                 </div>
               </div>
@@ -364,15 +355,15 @@ export default function Portfolio() {
         <div className="container flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
             <Link href="/" className="font-bold text-xl">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Shine</span>
-              <span className="text-white">KKA</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">공</span>
+              <span className="text-white">병선</span>
             </Link>
             <p className="text-sm text-zinc-500 mt-2">
-              © {new Date().getFullYear()} Shine Kyaw Kyaw Aung. All rights reserved.
+              © {new Date().getFullYear()} 공병선. All rights reserved.
             </p>
           </div>
           <div className="flex gap-4">
-            <Link href="https://github.com/shinekyaw" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/bbbbs17" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -382,17 +373,7 @@ export default function Portfolio() {
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href="https://www.linkedin.com/in/shinekyawkyawaung/" target="_blank" rel="noopener noreferrer">
-              <Button
-                variant="ghost"
-                size="icon"
-                className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
-              >
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
-              </Button>
-            </Link>
-            <Link href="mailto:shinekyawkyawaung@gmail.com">
+            <Link href="mailto:bs000317@gmail.com">
               <Button
                 variant="ghost"
                 size="icon"
