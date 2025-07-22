@@ -32,18 +32,19 @@ export default function Portfolio() {
           <div className="space-y-6">
             <div className="inline-block">
               <div className="relative px-3 py-1 text-sm font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-4 mt-4">
-                <span className="relative z-10">Software Engineer & Creative Developer</span>
+                <span className="relative z-10">백엔드 개발자</span>
                 <span className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 animate-pulse"></span>
               </div>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              <span className="block">Hi, I'm</span>
+              <span className="block">안녕하세요</span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-                Shine Kyaw Kyaw Aung
+                공병선 입니다.
               </span>
             </h1>
             <p className="text-xl text-zinc-400 max-w-[600px]">
-              I craft exceptional digital experiences with code, creativity, and a passion for innovation.
+              단순한 기능 구현이 목표가아닌, 사용자 관점에서 원하고 필요로 하는점이 무엇인지를 고민하는데 더많은 시간을 투자하
+              는 개발자입니다.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Button className="relative overflow-hidden group bg-gradient-to-r from-purple-500 to-pink-500 border-0">
@@ -60,7 +61,7 @@ export default function Portfolio() {
               </Button>
             </div>
             <div className="flex gap-4 pt-4">
-              <Link href="https://github.com/shinekyaw" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/bbbbs17" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -70,17 +71,7 @@ export default function Portfolio() {
                   <span className="sr-only">GitHub</span>
                 </Button>
               </Link>
-              <Link href="https://www.linkedin.com/in/shinekyawkyawaung/" target="_blank" rel="noopener noreferrer">
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
-                >
-                  <Linkedin className="h-5 w-5" />
-                  <span className="sr-only">LinkedIn</span>
-                </Button>
-              </Link>             
-              <Link href="mailto:shinekyawkyawaung@gmail.com">
+              <Link href="mailto:bs000317@naver.com">
                 <Button
                   variant="ghost"
                   size="icon"
@@ -152,15 +143,15 @@ export default function Portfolio() {
                 <div className="grid grid-cols-2 gap-4 mt-8">
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Name</div>
-                    <div className="font-medium">Shine Kyaw Kyaw Aung</div>
+                    <div className="font-medium">공병선</div>
                   </div>
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Email</div>
-                    <div className="font-medium">shinekyawkyawaung@gmail.com</div>
+                    <div className="font-medium">bs000317@naver.com</div>
                   </div>
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Location</div>
-                    <div className="font-medium">Myanmar</div>
+                    <div className="font-medium">경기도/수원</div>
                   </div>
                   <div className="space-y-1">
                     <div className="text-sm text-zinc-500">Availability</div>
@@ -185,24 +176,22 @@ export default function Portfolio() {
         </div>
 
         <div className="container relative z-10">
-          <SectionHeading title="My Skills" subtitle="Technologies I work with" />
+          <SectionHeading
+              title="My Skills"
+              subtitle="숙련도에 따라 상 · 중 · 하로 분류하였습니다."
+          />
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-16">
-            <SkillBadge name="JavaScript" level={90} />
-            <SkillBadge name="TypeScript" level={85} />
-            <SkillBadge name="React" level={95} />
-            <SkillBadge name="Next.js" level={90} />
-            <SkillBadge name="Node.js" level={80} />
-            <SkillBadge name="HTML/CSS" level={95} />
-            <SkillBadge name="Tailwind CSS" level={90} />
-            <SkillBadge name="GraphQL" level={75} />
-            <SkillBadge name="PostgreSQL" level={70} />
-            <SkillBadge name="AWS" level={65} />
-            <SkillBadge name="Docker" level={60} />
-            <SkillBadge name="Git" level={85} />
+            <SkillBadge name="JAVA" level={80} />
+            <SkillBadge name="SPRING" level={65} />
+            <SkillBadge name="MySQL" level={60} />
+            <SkillBadge name="NCP" level={30} />
+            <SkillBadge name="Docker" level={25} />
+            <SkillBadge name="Git" level={55} />
           </div>
         </div>
       </section>
+
 
       {/* Projects Section */}
       <section id="projects" className="py-32 relative">
